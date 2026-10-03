@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Environments & Secrets
+.env
+.env.*
+*.env
+.venv/
+venv/
+env/
+ENV/
+
+# Django
+*.sqlite3
+*.log
+media/
+staticfiles/
+
+# Testing & Linting
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local data & test artifacts
+body.json
+response.json
+uscities.csv
+uscities.xlsx
+us_cities.zip
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
