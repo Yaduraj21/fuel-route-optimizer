@@ -47,3 +47,9 @@ us_cities.zip
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# For assest
+body_long.json
+body_short.json
+show.py
+response.json

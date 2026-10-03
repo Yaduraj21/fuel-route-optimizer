@@ -6,7 +6,7 @@ from django.db.models import Min
 from .models import FuelStation
 
 # Nominatim is fine for one-off geocoding of start/finish (2 calls per request)
-_geocoder = Nominatim(user_agent="fuel_route_assessment (contact: yaddurajsy@gmail.com)", timeout=15)
+_geocoder = Nominatim(user_agent="fuel_route_assessment (contact: Yaduraj21@users.noreply.github.com)", timeout=15)
 
 
 def geocode_place(query):
